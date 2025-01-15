@@ -1,0 +1,21 @@
+.parent{
+  text-align: center;
+}
+li{
+  list-style-type: none;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: #ffffff;
+}
+
+.dark-mode .form-control::placeholder {
+  color: #6c757d;
+}
+
+.dark-mode .form-control:focus {
+  background-color: #2a2a2a;
+  color: #ffffff;
+  border-color: #495057;
+}
