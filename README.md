@@ -32,6 +32,9 @@ Currently the App is in Beta and the login page resembles a mock authentication 
 
 ### How to Run
 
+## You will need a OpenWeather API key for the weather API to work. Make one from here: https://openweathermap.org/
+Update your API key in the Weather.jsx file.
+
 To run the React.js app locally, follow these steps:
 
 1. **Clone the repository**:
