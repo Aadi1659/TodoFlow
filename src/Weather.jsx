@@ -10,7 +10,7 @@ const Weather = ({ isDarkMode }) => {
     const fetchWeather = async (latitude, longitude) => {
       try {
         // Replace 'YOUR_API_KEY' with your actual OpenWeatherMap API key
-        const API_KEY = 'dbc59b75fc1117790949f6e3e4f22c76';
+        const API_KEY = 'YOUR_API_KEY';
         const response = await fetch(
           `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
         );
