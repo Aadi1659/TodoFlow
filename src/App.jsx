@@ -182,7 +182,7 @@ function App() {
 
               <Weather isDarkMode={isDarkMode} />
 
-              {/* Rest of the component remains the same */}
+          
               {/* Progress Tracker */}
               <div className={`p-3 rounded shadow-sm mb-4 ${isDarkMode ? 'bg-dark text-light' : 'bg-light'}`}>
                 <div className="d-flex justify-content-between align-items-center mb-2">
